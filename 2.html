@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+            $("div").animate({
+            
+    left: '10px',
+            
+    opacity:'0.2rem',
+            
+    height: '50px',
+            
+    width: '1266px'
+    
+            });
+    });
+    });
+    </script>
+</head>
+<body>
+    <button>Begin the Box Animation</button>
+    <p></p>
+<div style="background:rgb(158, 78, 224);height:40px;width:140px;position:fixed;">Woah! It's fun.</div>
+</body>
+</html>
